@@ -98,8 +98,8 @@ https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-prep
 [4] Yan J, Guha S, Hariharan P, Myers M. Modeling the Effectiveness of Respiratory Protective Devices in Reducing Influenza Outbreak. Risk Anal. 2019;39(3):647–661. doi:10.1111/risa.13181
 
 ### Appendix A - A simple epidemiologic model
-We used a simplistic model of epidemic propagation, assuming a daily transmission rate Ko and a period of infectivity of C days. Ro is the product of these two factors:
-> Ro = Ko x C  
+We used a simplistic model of epidemic propagation, assuming a daily transmission rate r and a period of infectivity of C days. Ro is the product of these two factors:
+> Ro = r x C  
 
 At any given period moment t, if X(t) is the cumulated proportion of confirmed cases at t, the part of the population still infections PInf is:
 > PInf(t) = X(t) - X(t-C)  
@@ -108,19 +108,19 @@ As people having contracted the disease prior than (t-C) are not infectious anym
 Each carrier of the virus would transmit the disease to Ko individuals if nobody in the population was infected.
 At t, there is only a proportion (1-X(t)) that can still catch the virus.  
 Therefore, the cumulated proportion of population infected at t+1 will be
-> X(t+1) = X(t) + Ko x PInf(t) x (1-X(t))  
+> X(t+1) = X(t) + r x PInf(t) x (1-X(t))  
 
 or
-> X(t+1) = X(t) + Ko x (X(t) - X(t-C)) x (1-X(t))  
+> X(t+1) = X(t) + r x (X(t) - X(t-C)) x (1-X(t))  
 
-Simulating this function allows to retrieve the Ro from the observed growth rate K on a stable segment (20-30 days).  
-Alternatively, Ko can be approximated with the following formula:
-> Ko ~ log(1 + K) + 0.05  
+Simulating this function allows to retrieve the Ro from the observed growth rate g on a stable segment (20-30 days).  
+Alternatively, r can be approximated with the following formula:
+> r ~ log(1 + g) + 0.05  
 
-Which gives us an estimate of Ro, with K the daily growth rate and C the period of infectivity:
-> Ro ~ C x (log(1 + K) + 0.05)  
+Which gives us an estimate of Ro, with g the daily growth rate and C the period of infectivity:
+> Ro ~ C x (log(1 + g) + 0.05)  
 
-This approximation is valid for R ≥ 1, i.e. with our hypothesis for C (10 days) for K ≥ 5%.
+This approximation is valid for R ≥ 1, i.e. with our hypothesis for C (10 days) for g ≥ 5%.
 
 ### Appendix B - A simple model of mask impact on contamination
 Several estimates of the efficiency of masks for reception (protecting the wearer) and to some extent emission (protecting others and preventing surface contamination) are available [1][2][3][4].
