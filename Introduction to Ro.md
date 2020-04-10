@@ -43,24 +43,25 @@ M2 therefore shows a slower growth than M1.
 
 <img src="https://github.com/fsteiner/K81/blob/master/Comparison.png" width="800">  
 
-Indeed, if Ro is below 1, every contagious carrier creates over C days less than 1 new case and, contrary to M0 and M1 the number of new cases will even decrease from the beginning. If Ro is above 1, every infected individual creates more than one new case until:
+Indeed, if Ro is below 1, every contagious carrier creates over C days less than 1 new case and, contrary to M0 and M1 the number of new cases will even decrease from the beginning.  
+If Ro is above 1, every infected individual creates more than one new case until:
 > Ro x  (1-X(t)) < 1
 
 or
 > X(t) > X<sub>immunity</sub> = 1 - 1/Ro
 
-The idea that new cases peak when a proportion of the population is reached is known as *herd immunity*. There is no warranty that without countermeasures the peak will be compatible with the capacity of existing national health systems. For instance, with a Ro of 3 the peak number of new cases would be circa 6.5% of the population - if 2% of these cases require intensive care, 13O ICU bed would be required for 100,000 inhabitants. As a reference, most European countries have around 10 ICU beds per inhabitants, with the exception of Germany among major countries at around 30 (source: [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_hospital_beds)). Managing the peak through the Ro (*flattening the curve*) is therefore critical.
+The idea that new cases peak when a proportion of the population is reached is known as *herd immunity*. There is no warranty that without countermeasures the peak will be compatible with the capacity of existing national health systems. For instance, with a Ro of 3 the peak number of new cases would be circa 6.5% of the population - if 2% of these cases require intensive care, 13O ICU beds per 100,000 inhabitants would be required. As a reference, most European countries' ratio is around 10, with the exception of Germany among major countries at around 30 (source: [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_hospital_beds)). Managing the peak through the Ro (*flattening the curve*) is therefore critical.
 
 <img src="https://github.com/fsteiner/K81/blob/master/Flattening_the_curve.png" width="600">  
 
-It should be noted that following M2 and contrary to M1 (and M0), not the whole of the population gets infected. The reach of the epidemic depends mostly on Ro and marginally on C.
+It should be noted that following M2 (and contrary to M1 and M0), part of the population is preserved from the infection. The reach of the epidemic depends mostly on Ro.
 
 <img src="https://github.com/fsteiner/K81/blob/master/Influence_of_Ro.png" width="400">  
 
 For Ro below 1, only a small fraction of the population gets infected.
 Above Ro=2, most of the population gets infected: 80% for Ro=2, 90% for Ro=2.5, 95% for R=3 and 99% for R=4.
 
-Managing the Ro therefore allows to manage:
+Managing the Ro therefore allows to control:
 - The pace of the disease
-- The final proportion of the population contracting the disease
+- The final proportion of the population contracting it
 - The magnitude of the peak of new cases, a crucial parameter in regard to the capacity of national health systems.
