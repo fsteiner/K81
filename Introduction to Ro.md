@@ -39,7 +39,7 @@ As people who contracted the disease more than C days ago are not contagious any
 or
 > M2 : X(t+1) - X(t) = r x [X(t) - X(t-C)] x (1-X(t))
 
-M2 therefore shows a slower growth than M1.
+For the same daily transmission rate r, M2 therefore shows a slower growth than M1.
 
 <img src="https://github.com/fsteiner/K81/blob/master/Comparison.png" width="800">  
 
