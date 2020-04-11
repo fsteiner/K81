@@ -39,29 +39,47 @@ As people who contracted the disease more than C days ago are not contagious any
 or
 > M2 : X(t+1) - X(t) = r x [X(t) - X(t-C)] x (1-X(t))
 
-For the same daily transmission rate r, M2 therefore shows a slower growth than M1.
+### Dynamic of the propagation
 
-<img src="https://github.com/fsteiner/K81/blob/master/Comparison.png" width="800">  
+The dynamic of the propagation is directly dependent on the value of Ro
 
-Indeed, if Ro is below 1, by definition every carrier propagates the infection to less than 1 new case over his/her contagious period, meaning that the number of new daily cases will go decreasing from the start, contrary to M0 or M1.  
+<img src="https://github.com/fsteiner/K81/blob/master/Comparison_R.png" width="800">  
+
+In particular if Ro is below 1, every carrier propagates the infection to less than 1 new case over his/her contagious period, implying that the number of new daily cases will go decreasing from the start and that no epidemic will result. 
 If Ro is above 1, every infected individual generates more than one new case over the contagious period until:
 > Ro x  (1-X(t)) < 1
 
 or
 > X(t) > X<sub>immunity</sub> = 1 - 1/Ro
 
-The idea that for Ro > 1 new cases keep increasing every day until a proportion of the population is reached and decrease thereafter is known as *herd immunity*. There is no warranty that without countermeasures the peak will be compatible with the capacity of existing national health systems. For instance, with a Ro of 3 the peak of new cases would be circa 6.5% of the population - if 2% of these new cases require intensive care for 5 days, 130 x 5 = 650 ICU beds per 100,000 inhabitants would be required. As a reference, most European countries' ratio of ICU beds is around 10 per 100,000 with the exception of Germany among major countries at around 30 per 100,000 (source: [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_hospital_beds)). Managing the peak through the Ro (*flattening the curve*) is therefore critical.
+The idea that for Ro > 1 new cases keep increasing every day until a proportion of the population is reached and decrease thereafter is known as *herd immunity*. 
 
-<img src="https://github.com/fsteiner/K81/blob/master/Flattening_the_curve.png" width="600">  
+###  Implications for national health systems
+There is no warranty that without countermeasures the peak will be compatible with the capacity of existing national health systems. Let us assume based on [1] that 5% of these new cases require intensive care and let us make the additional assumption that the average stay in ICU is 5 days (probably a low number in the case of COVID-19).  
 
-It should be noted that following M2 (and contrary to M1 and M0), a part of the population is preserved from the infection. The reach of the epidemic depends mostly on Ro, as seen on the chart below.
+<img src="https://github.com/fsteiner/K81/blob/master/Flattening_the_curve.png" width="800">  
+
+Keeping a contagion period of 10 days, **with Ro=3 the required ICU capacity at peak is circa 1,600 beds** per 100,000 inhabitants **2 months** after reaching one confirmed case per million of inhabitants (cumulated).
+**With Ro=1.2 this number becomes circa only 70 beds** per 100,000 inhabitants after **11 months**. 
+As a reference, **average European countries count 11.5 ICU beds per 100,000 inhabitants**, Germany having the highest ratio at 29.2 per 100,000 (source: [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_hospital_beds)).
+
+<img src="https://github.com/fsteiner/K81/blob/master/Peaks.png" width="800">  
+
+Managing the peak through the Ro (*flattening the curve*) is therefore critical.
+
+The propotion of the population preserved from the infection also depends widely on Ro, as seen on the chart below.
 
 <img src="https://github.com/fsteiner/K81/blob/master/Influence_of_Ro.png" width="400">  
 
 For Ro below 1, only a small fraction of the population gets infected.
 Above Ro=2, most of the population gets infected: 80% for Ro=2, 90% for Ro=2.5, 95% for R=3 and 99% for R=4.
 
-Managing the Ro therefore allows to control:
+
+
+In conclusion, managing Ro  allows to control:
 - The pace of the disease
-- The final proportion of the population contracting it
-- The magnitude of the peak of new cases, a crucial parameter in regard to the capacity of national health systems.
+- The magnitude of the peak of new cases, a crucial parameter in regard to the capacity of national health systems
+- The reach of the epidemic
+
+### References
+[1] Wei-jie Guan, Ph.D., Zheng-yi Ni, M.D., Yu Hu, M.D., Wen-hua Liang, Ph.D., Chun-quan Ou, Ph.D., Jian-xing He, M.D., Lei Liu, M.D., Hong Shan, M.D., Chun-liang Lei, M.D., David S.C. Hui, M.D., Bin Du, M.D., Lan-juan Li, M.D., et al., for the China Medical Treatment Expert Group for Covid-19, Clinical Characteristics of Coronavirus Disease 2019 in China, New England Journal of Medicine, //doi.org/10.1056/NEJMoa2002032
