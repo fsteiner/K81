@@ -81,4 +81,4 @@ Above Ro=2, most of the population gets infected: 80% for Ro=2, 90% for Ro=2.5, 
 
 
 ### References
-[1] Wei-jie Guan, Ph.D., Zheng-yi Ni, M.D., Yu Hu, M.D., Wen-hua Liang, Ph.D., Chun-quan Ou, Ph.D., Jian-xing He, M.D., Lei Liu, M.D., Hong Shan, M.D., Chun-liang Lei, M.D., David S.C. Hui, M.D., Bin Du, M.D., Lan-juan Li, M.D., et al., for the China Medical Treatment Expert Group for Covid-19, Clinical Characteristics of Coronavirus Disease 2019 in China, New England Journal of Medicine, //doi.org/10.1056/NEJMoa2002032
+[1] Wei-jie Guan, Ph.D., Zheng-yi Ni, M.D., Yu Hu, M.D., Wen-hua Liang, Ph.D., Chun-quan Ou, Ph.D., Jian-xing He, M.D., Lei Liu, M.D., Hong Shan, M.D., Chun-liang Lei, M.D., David S.C. Hui, M.D., Bin Du, M.D., Lan-juan Li, M.D., et al., for the China Medical Treatment Expert Group for Covid-19, Clinical Characteristics of Coronavirus Disease 2019 in China, New England Journal of Medicine, [//doi.org/10.1056/NEJMoa2002032](https://doi.org/10.1056/NEJMoa2002032)
