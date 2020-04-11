@@ -55,7 +55,7 @@ or
 The idea that for Ro > 1 new cases keep increasing every day until a proportion of the population is reached and decrease thereafter is known as *herd immunity*. 
 
 ###  Implications for national health systems
-There is no warranty that without countermeasures the peak will be compatible with the capacity of existing national health systems. Let us assume based on [1] that 5% of new cases require intensive care and let us make the additional assumption that the average stay in ICU is 5 days (probably an optimistic number in the case of COVID-19).  
+There is no warranty that without countermeasures the peak will be compatible with the capacity of existing national health systems. Let us assume based on [1] that 5% of new cases require intensive care and let us make the additional assumption that the average stay in ICU is 10 days (probably an optimistic number in the case of COVID-19).  
 
 <img src="https://github.com/fsteiner/K81/blob/master/Flattening_the_curve.png" width="800">  
 
