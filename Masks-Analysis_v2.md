@@ -87,13 +87,13 @@ As we considered countries differing in terms of density, hygienic and sanitary 
 In the case of France, there is a  short-term deficit of enough disposable or certified masks, and their production can only be gradual. A mandate to wear homemade masks seems necessary to restart the economy at the end of the confinement period. The restart would be made progressively to keep Ro close to or below 1.  Strict confinement would continue for those most at risk while those going back to work would have to wear a mask.  As long as an effective vaccine is not made widely available, it would be prudent to maintain the obligation to wear masks in public places so as to avoid a relapse (“overshoot”). 
 
 ### References
-[1]  Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A. (2013). Testing the Efficacy of Homemade Masks: Would They Protect in an Influenza Pandemic? Disaster Medicine and Public Health Preparedness, 7(4), 413-418. [doi:10.1017/dmp.2013.43](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55)
+[1]  Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A. (2013). Testing the Efficacy of Homemade Masks: Would They Protect in an Influenza Pandemic? Disaster Medicine and Public Health Preparedness, 7(4), 413-418. [doi:10.1017/dmp.2013.43](https://doi.org/10.1017/dmp.2013.43)
 
 [2] Compilation of various studies either performed or collected by social enterprise Smart Air [(smartairfilters.com)](https://smartairfilters.com/en/blog/coronavirus-pollution-masks-n95-surgical-mask/)
 
-[3] Leung, N.H.L., Chu, D.K.W., Shiu, E.Y.C. et al. Respiratory virus shedding in exhaled breath and efficacy of face masks. Nat Med (2020).  [doi.org/10.1038/s41591-020-0843-2](https://doi.org/10.1038/s41591-020-0843-2)
+[3] Leung, N.H.L., Chu, D.K.W., Shiu, E.Y.C. et al. Respiratory virus shedding in exhaled breath and efficacy of face masks. Nat Med (2020). [doi:10.1038/s41591-020-0843-2](https://doi.org/10.1038/s41591-020-0843-2)
 
-[4] Yan J, Guha S, Hariharan P, Myers M. Modeling the Effectiveness of Respiratory Protective Devices in Reducing Influenza Outbreak. Risk Anal. 2019;39(3):647–661.[doi:10.1111/risa.13181](https://onlinelibrary.wiley.com/doi/full/10.1111/risa.13181)
+[4] Yan J, Guha S, Hariharan P, Myers M. Modeling the Effectiveness of Respiratory Protective Devices in Reducing Influenza Outbreak. Risk Anal. 2019;39(3):647–661.[doi:10.1111/risa.13181](https://doi.org/10.1111/risa.13181)
 
 ### Appendix A - A simple epidemiologic model
 We used a simplistic model of epidemic propagation, assuming a daily transmission rate r and a period of infectivity of C days. Ro is the product of these two factors:
