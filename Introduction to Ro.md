@@ -55,19 +55,19 @@ or
 The idea that for Ro > 1 new cases keep increasing every day until a proportion of the population is reached and decrease thereafter is known as *herd immunity*. 
 
 ###  Implications for national health systems
-There is no warranty that without countermeasures the peak will be compatible with the capacity of existing national health systems. Let us assume based on [1] that 5% of new cases require intensive care and let us make the additional assumption that the average stay in ICU is 10 days (probably an optimistic number in the case of COVID-19).  
+There is no warranty that without countermeasures the peak will be compatible with the capacity of existing national health systems. Let us assume based on [1] that 5% of new cases require intensive care and let us make the additional assumption that the average stay in ICU is 10 days (probably an optimistic number in the case of COVID-19) and an overall COVID-19 mortality rate of 1%.  
 
 <img src="https://github.com/fsteiner/K81/blob/master/Flattening_the_curve.png" width="800">  
 
-Keeping the assumption of a contagion period of 10 days, **with Ro=3 the required ICU capacity at peak is circa 1,600 beds** per 100,000 inhabitants **2 months** after reaching 1 confirmed case per million of inhabitants (cumulated).
-**With Ro=1.2 this number becomes circa only 70 beds** per 100,000 inhabitants after **11 months**. 
-As a reference, **average European countries count 11.5 ICU beds per 100,000 inhabitants**, Germany having the highest ratio at 29.2 per 100,000 (source: [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_hospital_beds)).
+Keeping the assumption of a contagion period of 10 days, **with Ro=3 the required ICU capacity at peak is circa 3,000 beds** per 100,000 inhabitants **2 months** after reaching 1 confirmed case per million of inhabitants (cumulated). 
+**With Ro=1.2 this number becomes circa only 140 beds** per 100,000 inhabitants after **11 months**.
+As a reference, **average European countries count 11.5 ICU beds per 100,000 inhabitants**, Germany having the highest ratio at 29.2 per 100,000 (source: [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_hospital_beds)). In an average European countries, our simulation shows that excess casualties could be avoided with a Ro=1.1 and would  be circa 1% of the population for Ro=1.2 and circa 4% for Ro=3 in the first year (likely a minimum time to find a vaccine).
 
 <img src="https://github.com/fsteiner/K81/blob/master/Peaks.png" width="800">  
 
 Managing the peak through the Ro (*flattening the curve*) is therefore critical.
 
-The proportion of the population preserved from the infection also depends widely on Ro, as seen on the chart below.
+The proportion of the population contracting the infection also depends on Ro, as seen on the chart below.
 
 <img src="https://github.com/fsteiner/K81/blob/master/Influence_of_Ro.png" width="400">  
 
