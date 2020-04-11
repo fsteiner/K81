@@ -93,7 +93,7 @@ In the case of France, there is a  short-term deficit of enough disposable or ce
 
 [3] Leung, N.H.L., Chu, D.K.W., Shiu, E.Y.C. et al. Respiratory virus shedding in exhaled breath and efficacy of face masks. Nat Med (2020). [doi:10.1038/s41591-020-0843-2](https://doi.org/10.1038/s41591-020-0843-2)
 
-[4] Yan J, Guha S, Hariharan P, Myers M. Modeling the Effectiveness of Respiratory Protective Devices in Reducing Influenza Outbreak. Risk Anal. 2019;39(3):647–661.[doi:10.1111/risa.13181](https://doi.org/10.1111/risa.13181)
+[4] Yan J, Guha S, Hariharan P, Myers M. Modeling the Effectiveness of Respiratory Protective Devices in Reducing Influenza Outbreak. Risk Anal. 2019;39(3):647–661. [doi:10.1111/risa.13181](https://doi.org/10.1111/risa.13181)
 
 ### Appendix A - A simple epidemiologic model
 We used a simplistic model of epidemic propagation, assuming a daily transmission rate r and a period of infectivity of C days. Ro is the product of these two factors:
